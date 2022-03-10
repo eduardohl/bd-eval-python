@@ -10,4 +10,4 @@
 4) After completing the exercises, commit your changes and push your code to a new public repository or fork in GitHub.
 5) Provide the link for your repository to your contact by email
 
-# Note: it's recommended you use pythonversion 3+ and spark version 3+
+#### Note: it's recommended you use pythonversion 3+ and spark version 3+
