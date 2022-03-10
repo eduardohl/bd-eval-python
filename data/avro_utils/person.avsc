@@ -1,0 +1,27 @@
+{
+  "type" : "record",
+  "name" : "PersonRecord",
+  "namespace" : "com.bdeval",
+  "fields" : [ {
+    "name" : "name",
+    "type" : "string",
+    "doc" : "Name of the user"
+  }, {
+    "name" : "age",
+    "type" : "long",
+    "doc" : "Age"
+  }, {
+    "name": "address",
+    "type":
+        {
+         "type": "record",
+         "name": "AddressRecord",
+         "fields": [
+           {
+             "name": "city",
+             "type": "string"
+           }
+         ]}
+  }],
+  "doc:" : "A basic schema for storing a user account"
+}
